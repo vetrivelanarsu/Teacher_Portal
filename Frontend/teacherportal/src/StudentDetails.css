@@ -1,0 +1,101 @@
+.student-details {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.weeks-data-table {
+  margin-top: 20px;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.overlayy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-formm {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-formm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-formm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-formm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-formm button:hover {
+  background-color: #45a049;
+}
+
+.edit-formm button.cancel {
+  background-color: #ccc;
+}
+
+.edit-formm button.cancel:hover {
+  background-color: #999;
+}
